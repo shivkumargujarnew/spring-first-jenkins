@@ -8,12 +8,18 @@ import org.apache.logging.slf4j.SLF4JLogger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 import jakarta.annotation.PostConstruct;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class JenkinProjectFirstApplication {
-	
+public class JenkinProjectFirstApplication extends SpringBootServletInitializer{
+	 @Override
+	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+	        return application.sources(JenkinProjectFirstApplication.class);
+	    }
     @PostConstruct
 	public void init() {
 	   System.out.println("hello welocimw to next commmit");

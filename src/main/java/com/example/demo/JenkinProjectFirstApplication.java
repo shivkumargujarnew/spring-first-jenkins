@@ -21,6 +21,7 @@ public class JenkinProjectFirstApplication {
 	   System.out.println("hello welocimw to next commmit");
 	   logger.info("hello welocimw to next commmit using logger");
 	   System.out.println("hello welocimw to next commmit");
+	   System.out.println("hello welocimw to next commmit");
 	   logger.info("hello welocimw to next commmit using logger");
 	   System.out.println("hello welocimw to next commmit");
 	   logger.info("hello welocimw to next commmit using logger");

@@ -18,8 +18,14 @@ public class JenkinProjectFirstApplication {
 	public void init() {
 	   System.out.println("hello welocimw to next commmit");
 	   logger.info("hello welocimw to next commmit using logger");
-   
-
+	   System.out.println("hello welocimw to next commmit");
+	   logger.info("hello welocimw to next commmit using logger");
+	   System.out.println("hello welocimw to next commmit");
+	   logger.info("hello welocimw to next commmit using logger");
+	   System.out.println("hello welocimw to next commmit");
+	   logger.info("hello welocimw to next commmit using logger");
+	   System.out.println("hello welocimw to next commmit");
+	   logger.info("hello welocimw to next commmit using logger");
 }
 	
 	
